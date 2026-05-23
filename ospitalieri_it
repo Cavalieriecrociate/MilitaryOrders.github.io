@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Ospitalieri - Archivio Ordini Militari</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #2b2b2b;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #1a1a1a;
+            padding: 20px;
+            border: 2px solid #8b0000;
+        }
+        
+        /* -- STILE DEL BANNER -- */
+        .banner {
+            background-color: #8b0000;
+            border: 2px solid #ffffff;
+            padding: 15px;
+            margin-bottom: 20px;
+            /* L'overflow serve per contenere correttamente l'immagine fluttuante */
+            overflow: auto; 
+        }
+        .banner img {
+            float: left; /* Spinge l'immagine a sinistra del testo */
+            margin-right: 20px;
+            border: 1px solid #ffffff;
+            width: 120px; /* Puoi aggiustare la grandezza della bandiera qui */
+        }
+        .banner h1 {
+            color: #ffffff;
+            margin: 0;
+            padding-top: 15px;
+            font-size: 26px;
+            border: none;
+            text-align: left;
+        }
+
+        /* -- STILE DELL'INDICE -- */
+        .indice {
+            background-color: #222222;
+            border: 1px dashed #888888;
+            padding: 15px;
+            margin-bottom: 40px;
+        }
+        .indice h3 {
+            margin-top: 0;
+            color: #ff4500;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+        .indice ul {
+            list-style-type: square; /* Pallini quadrati stile retro */
+            margin-bottom: 0;
+        }
+        
+        /* -- STILE DEI LINK E DEL TESTO -- */
+        a {
+            color: #ff4500;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+        h2 {
+            color: #ff4500;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        p, li {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .torna-su {
+            font-size: 14px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <p><a href="index.html">← Torna alla Home Page</a></p>
+
+        <div class="banner">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_the_Sovereign_Military_Order_of_Malta.svg/320px-Flag_of_the_Sovereign_Military_Order_of_Malta.svg.png" alt="Bandiera dell'Ordine di Malta">
+            <h1>Ordine dei Cavalieri Ospitalieri di San Giovanni di Gerusalemme, di Rodi e di Malta</h1>
+        </div>
+
+        <div class="indice">
+            <h3>Indice dei Contenuti</h3>
+            <ul>
+                <li><a href="#storia">Storia dell'Ordine</a></li>
+                <li><a href="#gran-maestri">Elenco dei Gran Maestri</a></li>
+                <li><a href="#fortificazioni">Architettura e Fortificazioni</a></li>
+                <li><a href="#organizzazione">Organizzazione e "Lingue"</a></li>
+            </ul>
+        </div>
+
+        <h2 id="storia">Storia dell'Ordine</h2>
+        <p>Le origini dell'Ordine risalgono alla metà dell'XI secolo a Gerusalemme, dove alcuni mercanti della Repubblica marinara di Amalfi ottennero dal califfo d'Egitto il permesso di costruire una chiesa, un convento e un ospedale per assistere i pellegrini di ogni fede o razza.</p>
+        <p><a href="#" class="torna-su">↑ Torna all'indice</a></p>
+
+        <h2 id="gran-maestri">Elenco dei Gran Maestri</h2>
+        <p>Il Gran Maestro è la massima autorità dell'Ordine, eletto a vita. Dal fondatore, il Beato Gerardo Sasso, fino alle complesse vicende dei giorni nostri, questa figura ha guidato i cavalieri in battaglie, assedi e diplomazia internazionale.</p>
+        <p><a href="#" class="torna-su">↑ Torna all'indice</a></p>
+
+        <h2 id="fortificazioni">Architettura e Fortificazioni</h2>
+        <p>Oltre alla vocazione ospedaliera, l'Ordine sviluppò formidabili competenze nell'ingegneria militare. Castelli come il Krak des Chevaliers o le imponenti mura della città di La Valletta a Malta sono testimonianze dirette della loro potenza difensiva.</p>
+        <p><a href="#" class="torna-su">↑ Torna all'indice</a></p>
+
+        <h2 id="organizzazione">Organizzazione e "Lingue"</h2>
+        <p>Con la crescita in tutta Europa, l'Ordine adottò una struttura sovranazionale unica, dividendosi in "Lingue" (Provenza, Alvernia, Francia, Italia, Aragona, Inghilterra e Germania), ognuna responsabile della difesa di settori specifici durante gli assedi.</p>
+        <p><a href="#" class="torna-su">↑ Torna all'indice</a></p>
+
+    </div>
+
+</body>
+</html>
